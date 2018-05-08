@@ -3,7 +3,7 @@ var builder = require('botbuilder');
 var fetch = require('node-fetch');
 var urlEncodedBodyParser = require('restify/lib/plugins/index').urlEncodedBodyParser
 
-// Setup Restify Server
+// Setup  Restify Server
 var server = restify.createServer();
 var initial_message = '';
 
